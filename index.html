@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="SCHRAGE Industrial Systems: Conveying Systems und Surface Engineering seit 1977." name="description"/>
+<meta content="#0a0d0f" name="theme-color"/>
+<title>SCHRAGE — Wir halten Industrie in Bewegung</title>
+<style>
+:root{
+  --ink:#0a0d0f;--steel:#151b20;--steel2:#202830;--bone:#f2f0e9;--paper:#faf9f5;
+  --blue:#00a3e0;--orange:#ff5a1f;--white:#fff;--muted:#8c979e;--line:rgba(255,255,255,.14);
+  --radius:2px;--shadow:0 30px 80px rgba(0,0,0,.18);--container:min(1240px,calc(100vw - 48px));
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}button,input,textarea,select{font:inherit}.container{width:var(--container);margin:0 auto}.site-header{position:fixed;z-index:50;top:0;left:0;width:100%;border-bottom:1px solid rgba(255,255,255,.12);background:rgba(10,13,15,.72);backdrop-filter:blur(16px)}.nav-wrap{height:78px;display:flex;align-items:center;gap:36px}.brand{display:flex;align-items:center;gap:10px;min-width:max-content;color:white}.brand__mark{width:32px;height:32px;color:var(--blue)}.brand__type{display:flex;flex-direction:column;line-height:.95}.brand__type strong{font-size:20px;letter-spacing:.16em}.brand__type small{font-size:8px;letter-spacing:.22em;margin-top:5px;color:#a9b2b8}.nav__links{display:flex;gap:24px;margin-left:auto}.nav__links a{font-size:13px;color:#dbe0e3;position:relative;padding:8px 0}.nav__links a:after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--blue);transition:.25s}.nav__links a:hover:after,.nav__links a.is-active:after{right:0}.nav-cta{font-size:13px;font-weight:700;padding:12px 15px;border:1px solid rgba(255,255,255,.28);color:white}.nav-cta span{margin-left:8px}.menu-toggle{display:none;background:none;border:0;width:42px;height:42px;padding:8px}.menu-toggle span{display:block;height:2px;background:#fff;margin:7px 0}
+.display{font-size:clamp(56px,7.8vw,122px);line-height:.87;letter-spacing:-.058em;margin:0;color:#fff;max-width:1040px;font-weight:800}.display em{font-style:normal;color:var(--blue)}.eyebrow,.kicker{font-size:11px;line-height:1.2;letter-spacing:.18em;text-transform:uppercase;font-weight:800}.eyebrow{color:#d4dbe0;margin-bottom:25px}.kicker{color:#8a949b;margin-bottom:18px}.kicker--blue{color:var(--blue)}.kicker--orange{color:var(--orange)}
+.hero{min-height:100svh;position:relative;display:flex;align-items:flex-end;background:var(--ink);overflow:hidden}.hero__media{position:absolute;inset:0}.hero__media--split{display:grid;grid-template-columns:56% 44%}.hero__image{background-size:cover;background-position:center}.hero__image--surface{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2025/08/Schnecke-1080x675.jpg');background-position:46% center}.hero__image--conveying{background-image:url('https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg');background-position:center 56%}.hero__shade,.subhero__shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,13,15,.96) 0%,rgba(10,13,15,.72) 38%,rgba(10,13,15,.38) 72%,rgba(10,13,15,.65) 100%),linear-gradient(0deg,rgba(10,13,15,.75),transparent 50%)}.hero__content{position:relative;z-index:2;padding:180px 0 125px}.hero__lede{max-width:700px;font-size:21px;line-height:1.48;color:#d4dbdf;margin:32px 0 0}.hero__actions{display:flex;gap:12px;margin-top:36px}.btn{display:inline-flex;gap:24px;align-items:center;justify-content:space-between;border:1px solid transparent;padding:16px 18px;min-width:190px;font-weight:750;font-size:13px;transition:.25s}.btn:hover{transform:translateY(-2px)}.btn--light{background:white;color:var(--ink)}.btn--ghost{border-color:rgba(255,255,255,.35);color:white;background:rgba(255,255,255,.04)}.btn--dark{background:var(--ink);color:white}.hero__rail{position:absolute;right:24px;bottom:32px;z-index:3;color:white;display:flex;align-items:center;gap:10px;font-size:9px;letter-spacing:.18em}.hero__rail i{display:block;width:42px;height:1px;background:rgba(255,255,255,.5)}
+.fact-strip{background:var(--ink);color:white;border-top:1px solid rgba(255,255,255,.12)}.fact-strip--orange{border-top:3px solid var(--orange)}.fact-strip--blue{border-top:3px solid var(--blue)}.fact-strip__inner{display:grid;grid-template-columns:repeat(5,1fr)}.fact-strip__inner>div{padding:26px 20px;border-right:1px solid rgba(255,255,255,.12)}.fact-strip__inner>div:first-child{padding-left:0}.fact-strip__inner strong{display:block;font-size:26px;letter-spacing:-.03em}.fact-strip__inner span{display:block;font-size:11px;color:#9fa9af;margin-top:5px;line-height:1.35}
+.section{padding:110px 0}.section--paper{background:var(--paper)}.section--bone{background:var(--bone)}.section--ink{background:var(--ink);color:white}.section-head{margin-bottom:50px}.section-head h2{font-size:clamp(42px,5.5vw,82px);line-height:.94;letter-spacing:-.052em;margin:0;max-width:950px}.section-head h2 span{color:#8e989f}.section-head--light h2{color:white}.section-head--light h2 span{color:#7a858c}.division-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.division-card{position:relative;height:680px;overflow:hidden;color:white;isolation:isolate}.division-card__img,.division-card__overlay{position:absolute;inset:0}.division-card__img{background-size:cover;background-position:center;transition:transform .7s}.division-card:hover .division-card__img{transform:scale(1.025)}.division-card__overlay{background:linear-gradient(0deg,rgba(10,13,15,.9),rgba(10,13,15,.04) 68%),linear-gradient(90deg,rgba(10,13,15,.35),transparent 55%)}.division-card--surface .division-card__img{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2025/08/HVOF-Beschichtung_Luefterrad-1.jpg')}.division-card--conveying .division-card__img{background-image:url('https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg');background-position:center top}.division-card__meta,.division-card__copy{position:absolute;z-index:2;left:30px;right:30px}.division-card__meta{top:28px;display:flex;justify-content:space-between;font-size:9px;letter-spacing:.16em}.division-card--surface .division-card__meta b{color:var(--orange)}.division-card--conveying .division-card__meta b{color:var(--blue)}.division-card__copy{bottom:28px}.division-card__copy h3{font-size:42px;letter-spacing:-.04em;margin:0 0 12px}.division-card__copy p{max-width:520px;color:#d8dfe2;line-height:1.5;margin:0 0 20px}.text-link{font-size:12px;font-weight:800;letter-spacing:.04em}.text-link--dark{color:var(--ink);display:inline-block;margin-top:24px}.problem-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);border-left:1px solid var(--line)}.problem-card{min-height:260px;padding:32px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);position:relative;transition:.3s}.problem-card:hover{background:#12191e}.problem-card span{font-size:10px;color:#68747b}.problem-card h3{font-size:30px;line-height:1.1;max-width:480px}.problem-card p{color:#9eaaaf;max-width:470px;line-height:1.5}.problem-card i{position:absolute;right:30px;bottom:25px;font-size:26px;font-style:normal;color:var(--blue)}
+.feature{min-height:730px;position:relative;display:flex;align-items:flex-end;color:white;overflow:hidden}.feature__image,.feature__wash{position:absolute;inset:0}.feature__image{background-size:cover;background-position:center}.feature__wash{background:linear-gradient(90deg,rgba(10,13,15,.94),rgba(10,13,15,.5) 52%,rgba(10,13,15,.15)),linear-gradient(0deg,rgba(10,13,15,.65),transparent 60%)}.feature__content{position:relative;z-index:2;padding-bottom:85px}.feature__content h2{font-size:clamp(46px,5vw,76px);line-height:.96;letter-spacing:-.05em;max-width:850px;margin:0}.feature__content h2 em{font-style:normal;color:var(--orange)}.feature__content p{font-size:18px;line-height:1.55;max-width:720px;color:#d6dcdf;margin:24px 0 30px}.feature--repair .feature__image{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2025/08/Schnecke-1080x675.jpg');background-position:center}.feature--hvof .feature__image{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2025/08/HVOF-Beschichtung_Luefterrad-1.jpg')}.split-copy{display:grid;grid-template-columns:1.12fr .88fr;gap:70px;align-items:start}.split-copy .section-head{margin:0}.split-copy__body{padding-top:38px}.big-copy{font-size:24px;line-height:1.48;letter-spacing:-.015em;margin:0}.conveyor-showcase{margin-top:70px;display:grid;grid-template-columns:1.45fr .55fr;min-height:600px;background:var(--ink)}.conveyor-showcase__image{background:url('https://schrage-anlagenbau.de/wp-content/uploads/2021/01/schrage-home-header.jpg') center/cover no-repeat;filter:grayscale(1) contrast(1.05)}.conveyor-showcase__stats{display:grid;grid-template-rows:repeat(3,1fr);color:white}.conveyor-showcase__stats>div{padding:34px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;justify-content:flex-end}.conveyor-showcase__stats strong{font-size:62px;letter-spacing:-.05em;color:var(--blue)}.conveyor-showcase__stats span{font-size:12px;color:#a9b3b8;max-width:180px}.capability-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.capability__img{height:360px;background-size:cover;background-position:center;filter:saturate(.9)}.cap-1{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2024/11/Header_neu_CNC_241129.jpg')}.cap-2{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2025/08/HVOF-Beschichtung_Luefterrad-1.jpg')}.cap-3{background-image:url('https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg')}.capability span{display:block;margin-top:18px;font-size:10px;letter-spacing:.16em;color:#69747a}.capability h3{font-size:26px;line-height:1.06;margin:8px 0 10px}.capability p{font-size:14px;color:#626c72;line-height:1.5}.work-gallery{display:grid;grid-template-columns:repeat(4,1fr);height:430px;background:#0a0d0f}.work-gallery__item{position:relative;overflow:hidden;background-size:cover;background-position:center}.work-gallery__item:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,7,8,.75),transparent 55%)}.work-gallery__item span{position:absolute;z-index:2;left:20px;bottom:18px;color:#fff;font-size:9px;font-weight:800;letter-spacing:.13em}.wg-1{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2024/11/Header_neu_CNC_241129.jpg')}.wg-2{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2025/09/Schuette-scaled.jpg')}.wg-3{background-image:url('https://schrage-metallspritz.de/wp-content/uploads/2025/08/IMG_6591-scaled.jpeg')}.wg-4{background-image:url('https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg')}.career-teaser{min-height:620px;display:grid;grid-template-columns:1fr 1fr;background:#ece9df}.career-teaser__image{background:url('https://schrage-metallspritz.de/wp-content/uploads/2025/09/Schuette-scaled.jpg') center/cover no-repeat;min-height:620px}.career-teaser__content{width:auto;margin:0;padding:90px 7vw;align-self:center}.career-teaser h2{font-size:clamp(44px,5vw,78px);line-height:.92;letter-spacing:-.05em;margin:0}.career-teaser p{max-width:560px;line-height:1.55;font-size:17px;margin:26px 0}.cta-band{background:var(--blue);color:var(--ink)}.cta-band__inner{min-height:220px;display:flex;justify-content:space-between;align-items:center;gap:40px}.cta-band__inner span{font-size:15px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.cta-band__inner a{font-size:clamp(38px,5vw,74px);letter-spacing:-.05em;font-weight:800}.site-footer{background:var(--ink);color:white;padding:75px 0 22px}.footer-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}.footer-claim{color:#89949a;max-width:240px;margin-top:24px}.footer-links{display:grid;grid-template-columns:repeat(3,1fr);gap:35px}.footer-links strong,.footer-links a,.footer-links span{display:block;font-size:12px;margin-bottom:11px}.footer-links strong{color:#738087;text-transform:uppercase;letter-spacing:.12em;margin-bottom:18px}.footer-links a{color:#dce2e5}.footer-links span{color:#939da2}.footer-bottom{margin-top:70px;border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;color:#69747a;font-size:10px}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.reveal.is-visible{opacity:1;transform:none}
+.photo-host{position:relative;overflow:hidden}.real-photo{position:absolute!important;inset:0;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover;display:block;z-index:0}.hero__image .real-photo{z-index:0}.division-card__img .real-photo,.feature__image .real-photo,.capability__img .real-photo,.work-gallery__item .real-photo,.career-teaser__image .real-photo,.conveyor-showcase__image .real-photo{z-index:0}.photo-failed:before{content:"SCHRAGE / INDUSTRIAL";position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(135deg,#182126,#0a0d0f);color:rgba(255,255,255,.12);font-weight:900;letter-spacing:.16em;font-size:clamp(14px,2vw,30px);z-index:0}.hero__image--surface:after,.hero__image--conveying:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1}
+@media(max-width:900px){:root{--container:min(100% - 30px,1240px)}.nav-wrap{height:68px}.nav__links{display:none;position:absolute;left:0;right:0;top:68px;background:#0a0d0f;padding:25px;flex-direction:column}.nav__links.is-open{display:flex}.nav-cta{display:none}.menu-toggle{display:block;margin-left:auto}.display{font-size:clamp(54px,15vw,90px)}.hero{min-height:880px}.hero__media--split{grid-template-columns:1fr}.hero__image--conveying{display:none}.hero__content{padding:150px 0 100px}.hero__lede{font-size:18px}.hero__actions{flex-direction:column;align-items:flex-start}.fact-strip__inner{grid-template-columns:repeat(2,1fr)}.fact-strip__inner>div{padding:20px 12px!important;border-bottom:1px solid var(--line)}.section{padding:78px 0}.division-grid,.split-copy,.capability-grid{grid-template-columns:1fr}.division-card{height:570px}.problem-grid{grid-template-columns:1fr}.conveyor-showcase{grid-template-columns:1fr;min-height:auto}.conveyor-showcase__image{height:420px}.conveyor-showcase__stats{grid-template-columns:repeat(3,1fr);grid-template-rows:auto}.conveyor-showcase__stats>div{padding:22px}.conveyor-showcase__stats strong{font-size:38px}.career-teaser{grid-template-columns:1fr}.career-teaser__image{min-height:460px}.career-teaser__content{padding:70px 24px}.work-gallery{grid-template-columns:1fr 1fr;height:620px}.cta-band__inner{align-items:flex-start;justify-content:center;flex-direction:column;padding:55px 0}.footer-grid{grid-template-columns:1fr}.footer-links{grid-template-columns:1fr 1fr}.footer-bottom{gap:20px;flex-direction:column}}
+@media(max-width:520px){.hero__image--surface{background-position:60% center}.hero__shade{background:linear-gradient(0deg,rgba(10,13,15,.94) 20%,rgba(10,13,15,.55) 90%)}.fact-strip__inner{grid-template-columns:1fr 1fr}.division-card{height:510px}.section-head h2{font-size:42px}.feature{min-height:680px}.work-gallery{grid-template-columns:1fr;height:auto}.work-gallery__item{height:300px}.footer-links{grid-template-columns:1fr}}
+</style>
+</head>
+<body data-page="home">
+<header class="site-header">
+<div class="container nav-wrap">
+<a aria-label="SCHRAGE Startseite" class="brand" href="index.html">
+<svg aria-hidden="true" class="brand__mark" viewBox="0 0 52 52">
+<path d="M8 17 31 4c3-2 7 0 7 4v5L15 26c-3 2-7 0-7-4z" fill="currentColor"></path>
+<path d="M14 28 38 14c3-2 7 0 7 4v5L21 37c-3 2-7 0-7-4z" fill="currentColor" opacity=".72"></path>
+<path d="M14 40 37 27c3-2 7 0 7 4v5L21 49c-3 2-7 0-7-4z" fill="currentColor" opacity=".44"></path>
+</svg>
+<span class="brand__type"><strong>SCHRAGE</strong><small>INDUSTRIAL SYSTEMS</small></span>
+</a>
+<nav aria-label="Hauptnavigation" class="nav__links">
+<a data-nav="surface" href="surface.html">Surface Engineering</a>
+<a data-nav="conveying" href="conveying.html">Conveying Systems</a>
+<a data-nav="cases" href="cases.html">Cases</a>
+<a data-nav="company" href="company.html">Unternehmen</a>
+<a data-nav="career" href="career.html">Karriere</a>
+</nav>
+<a class="nav-cta" href="contact.html">Projekt besprechen <span>↗</span></a>
+<button aria-label="Menü öffnen" class="menu-toggle"><span></span><span></span></button>
+</div>
+</header>
+<main>
+<section class="hero">
+<div class="hero__media hero__media--split">
+<div class="hero__image hero__image--surface photo-host"><img alt="Glühende Schnecke in der Oberflächenbearbeitung bei SCHRAGE" class="real-photo" decoding="async" fetchpriority="high" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2025/08/Schnecke-1080x675.jpg" style="object-position:46% 50%"/></div>
+<div class="hero__image hero__image--conveying photo-host"><img alt="SCHRAGE Rohrkettenförderer RKF 300 im Anlagenbau" class="real-photo" decoding="async" fetchpriority="high" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg" style="object-position:50% 56%"/></div>
+</div>
+<div class="hero__shade"></div>
+<div class="container hero__content reveal">
+<div class="eyebrow">INDUSTRIAL SYSTEMS · EST. 1977</div>
+<h1 class="display">Wir halten<br/>Industrie in <em>Bewegung.</em></h1>
+<p class="hero__lede">Fördertechnik, die Material zuverlässig bewegt. Oberflächentechnik, die Maschinen länger laufen lässt. Zwei Disziplinen. Ein industrieller Anspruch.</p>
+<div class="hero__actions"><a class="btn btn--light" href="conveying.html">Schüttgut fördern <span>↗</span></a><a class="btn btn--ghost" href="surface.html">Bauteil retten <span>↗</span></a></div>
+</div>
+<div class="hero__rail"><span>SCHRAGE / 2026</span><i></i><span>SCROLL</span></div>
+</section>
+<section class="fact-strip">
+<div class="container fact-strip__inner">
+<div><strong>1977</strong><span>Industrieerfahrung</span></div>
+<div><strong>2</strong><span>Kompetenzwelten</span></div>
+<div><strong>5</strong><span>Förderprinzipien</span></div>
+<div><strong>8 m</strong><span>Drehbank-Kapazität</span></div>
+<div><strong>1 Ziel</strong><span>Stillstand vermeiden</span></div>
+</div>
+</section>
+<section class="section section--paper">
+<div class="container">
+<div class="section-head reveal"><div class="kicker">ONE GROUP / TWO DISCIPLINES</div><h2>Zwei Wege,<br/><span>Industrie am Laufen zu halten.</span></h2></div>
+<div class="division-grid">
+<a class="division-card division-card--surface reveal" href="surface.html">
+<div class="division-card__img photo-host"><img alt="HVOF Beschichtung eines Lüfterrads bei SCHRAGE" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2025/08/HVOF-Beschichtung_Luefterrad-1.jpg" style="object-position:50% 50%"/></div><div class="division-card__overlay"></div>
+<div class="division-card__meta"><b>SURFACE ENGINEERING</b><span>01</span></div>
+<div class="division-card__copy"><h3>Repair. Protect.<br/>Extend life.</h3><p>Thermisches Spritzen, Auftragsschweißen und mechanische Bearbeitung. Für Bauteile, die nicht aufgeben dürfen.</p><span class="text-link">Bauteil retten ↗</span></div>
+</a>
+<a class="division-card division-card--conveying reveal" href="conveying.html">
+<div class="division-card__img photo-host"><img alt="Rohrkettenförderer RKF 300 von SCHRAGE Anlagenbau" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg" style="object-position:50% 12%"/></div><div class="division-card__overlay"></div>
+<div class="division-card__meta"><b>CONVEYING SYSTEMS</b><span>02</span></div>
+<div class="division-card__copy"><h3>Move material.<br/>Not problems.</h3><p>Fünf Fördertechnologien statt einer Lieblingslösung. Ausgelegt auf Prozess, Schüttgut und Realität.</p><span class="text-link">Förderaufgabe lösen ↗</span></div>
+</a>
+</div>
+</div>
+</section>
+<section class="section section--ink">
+<div class="container">
+<div class="section-head section-head--light reveal"><div class="kicker">START WITH THE PROBLEM</div><h2>Technik beginnt nicht<br/><span>mit einem Produkt.</span></h2></div>
+<div class="problem-grid">
+<a class="problem-card reveal" href="surface.html"><span>01</span><h3>„Die Welle ist eingelaufen.“</h3><p>Instandsetzen statt wochenlang auf ein Neuteil warten.</p><i>→</i></a>
+<a class="problem-card reveal" href="surface.html"><span>02</span><h3>„Das Teil verschleißt zu schnell.“</h3><p>Oberfläche gezielt verändern und Standzeit erhöhen.</p><i>→</i></a>
+<a class="problem-card reveal" href="conveying.html"><span>03</span><h3>„Wir müssen 40 t/h über drei Ebenen bringen.“</h3><p>Förderweg, Medium und Technik zusammen denken.</p><i>→</i></a>
+<a class="problem-card reveal" href="conveying.html"><span>04</span><h3>„Standard passt hier nicht rein.“</h3><p>Sonderlösung statt Kompromiss im Prozess.</p><i>→</i></a>
+</div>
+</div>
+</section>
+<section class="feature feature--repair">
+<div class="feature__image photo-host"><img alt="Glühende Schnecke während der thermischen Nachverdichtung" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2025/08/Schnecke-1080x675.jpg" style="object-position:50% 50%"/></div><div class="feature__wash"></div>
+<div class="container feature__content reveal"><div class="kicker">REPAIR FIRST / CIRCULAR INDUSTRY</div><h2>Neu kaufen kann jeder.<br/><em>Weiterlaufen lassen</em> ist Ingenieursarbeit.</h2><p>SCHRAGE Metallspritz- und Schweißtechnik will die Reparatur von Verschleißteilen in der Industrie zum Standard machen. Das ist keine Nachhaltigkeitskampagne. Das ist seit Jahrzehnten das Geschäftsmodell.</p><a class="btn btn--light" href="surface.html">Surface Engineering entdecken <span>↗</span></a></div>
+</section>
+<section class="section section--paper">
+<div class="container split-copy">
+<div class="section-head reveal"><div class="kicker kicker--blue">CONVEYING SYSTEMS</div><h2>Engineering ohne<br/><span>Produktblindheit.</span></h2></div>
+<div class="split-copy__body reveal"><p class="big-copy">Rohrkette, Schnecke, Trogkette, Becherwerk oder Gurt: Wer mehrere Technologien beherrscht, muss nicht jede Aufgabe in dieselbe Maschine pressen.</p><a class="text-link text-link--dark" href="conveying.html">Zu den Fördersystemen ↗</a></div>
+</div>
+<div class="container conveyor-showcase reveal">
+<div class="conveyor-showcase__image photo-host"><img alt="SCHRAGE Fördertechnik im Anlagenbau" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-anlagenbau.de/wp-content/uploads/2021/01/schrage-home-header.jpg" style="object-position:50% 50%"/></div>
+<div class="conveyor-showcase__stats"><div><strong>5</strong><span>mechanische Fördertechniken</span></div><div><strong>18</strong><span>Grundausführungen</span></div><div><strong>40+</strong><span>Jahre Erfahrung mit Rohrkettenförderern</span></div></div>
+</div>
+</section>
+<section class="section section--bone">
+<div class="container">
+<div class="section-head reveal"><div class="kicker">Capabilities, not claims.</div><h2>Substanz kann man<br/><span>zeigen.</span></h2></div>
+<div class="capability-grid">
+<article class="capability reveal"><div class="capability__img cap-1 photo-host"><img alt="CNC-Bearbeitung bei SCHRAGE" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2024/11/Header_neu_CNC_241129.jpg" style="object-position:50% 50%"/></div><span>MECHANISCHE BEARBEITUNG</span><h3>Große Teile. Enge Toleranzen.</h3><p>CNC und konventionell, inklusive 8-Meter-Drehbank und 2-Meter-Karussell.</p></article>
+<article class="capability reveal"><div class="capability__img cap-2 photo-host"><img alt="HVOF Oberflächentechnik bei SCHRAGE" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2025/08/HVOF-Beschichtung_Luefterrad-1.jpg" style="object-position:50% 50%"/></div><span>HVOF</span><h3>Schutz mit Geschwindigkeit.</h3><p>Dichte, haftende Schichten für hochbeanspruchte metallische Bauteile.</p></article>
+<article class="capability reveal"><div class="capability__img cap-3 photo-host"><img alt="SCHRAGE Anlagenbau RKF 300" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg" style="object-position:50% 20%"/></div><span>ANLAGENBAU</span><h3>Von der Komponente zur Anlage.</h3><p>Planung, Konstruktion, Montage, Wartung und Ersatzteile aus einem System.</p></article>
+</div>
+</div>
+</section>
+<section aria-label="Arbeit bei SCHRAGE" class="work-gallery">
+<div class="work-gallery__item wg-1 photo-host"><img alt="CNC Bearbeitung bei SCHRAGE" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2024/11/Header_neu_CNC_241129.jpg" style="object-position:50% 50%"/><span>CNC / OSTERHOLZ-SCHARMBECK</span></div>
+<div class="work-gallery__item wg-2 photo-host"><img alt="Thermisches Spritzen bei SCHRAGE" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2025/09/Schuette-scaled.jpg" style="object-position:45% 50%"/><span>THERMISCHES SPRITZEN</span></div>
+<div class="work-gallery__item wg-3 photo-host"><img alt="Menschen in der SCHRAGE Werkstatt" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2025/08/IMG_6591-scaled.jpeg" style="object-position:50% 50%"/><span>MENSCHEN / WERKSTATT</span></div>
+<div class="work-gallery__item wg-4 photo-host"><img alt="RKF 300 im Einsatz" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-anlagenbau.de/wp-content/uploads/2025/02/Schrage_AB_RKF300-scaled.jpg" style="object-position:50% 35%"/><span>RKF 300 / ANLAGENBAU</span></div>
+</section>
+<section class="career-teaser">
+<div class="career-teaser__image photo-host"><img alt="Mitarbeiter bei der Oberflächenbearbeitung" class="real-photo" decoding="async" loading="lazy" onerror="this.parentElement.classList.add('photo-failed');this.style.display='none'" referrerpolicy="no-referrer" src="https://schrage-metallspritz.de/wp-content/uploads/2025/09/Schuette-scaled.jpg" style="object-position:50% 50%"/></div>
+<div class="container career-teaser__content reveal"><div class="kicker">MAKE INDUSTRY MOVE.</div><h2>Keine Serien.<br/>Keine Schicht.<br/>Keine Langeweile.</h2><p>Bei SCHRAGE ist fast jedes Teil anders. Und genau deshalb braucht es Menschen, die ihr Handwerk können und trotzdem jeden Tag neu denken.</p><a class="btn btn--dark" href="career.html">Karriere bei SCHRAGE <span>↗</span></a></div>
+</section>
+<section class="cta-band"><div class="container cta-band__inner reveal"><span>Ein Problem aus Metall oder mit Schüttgut?</span><a href="contact.html">Zeig es uns. <b>↗</b></a></div></section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<a aria-label="SCHRAGE Startseite" class="brand" href="index.html">
+<svg aria-hidden="true" class="brand__mark" viewBox="0 0 52 52">
+<path d="M8 17 31 4c3-2 7 0 7 4v5L15 26c-3 2-7 0-7-4z" fill="currentColor"></path>
+<path d="M14 28 38 14c3-2 7 0 7 4v5L21 37c-3 2-7 0-7-4z" fill="currentColor" opacity=".72"></path>
+<path d="M14 40 37 27c3-2 7 0 7 4v5L21 49c-3 2-7 0-7-4z" fill="currentColor" opacity=".44"></path>
+</svg>
+<span class="brand__type"><strong>SCHRAGE</strong><small>INDUSTRIAL SYSTEMS</small></span>
+</a>
+<p class="footer-claim">Wir halten Industrie in Bewegung.</p>
+</div>
+<div class="footer-links">
+<div><strong>Leistungen</strong><a href="surface.html">Surface Engineering</a><a href="conveying.html">Conveying Systems</a><a href="cases.html">Cases</a></div>
+<div><strong>SCHRAGE</strong><a href="company.html">Unternehmen</a><a href="career.html">Karriere</a><a href="contact.html">Kontakt</a></div>
+<div><strong>Standorte</strong><span>Osterholz-Scharmbeck</span><span>Sande</span><span>Deutschland</span></div>
+</div>
+</div>
+<div class="container footer-bottom"><span>Concept prototype · SCHRAGE 2026</span><span>Impressum · Datenschutz</span></div>
+</footer>
+<script>
+const body = document.body;
+const page = body.dataset.page;
+document.querySelectorAll('[data-nav]').forEach(a=>{ if(a.dataset.nav===page) a.classList.add('is-active'); });
+const menu = document.querySelector('.menu-toggle');
+const links = document.querySelector('.nav__links');
+if(menu && links){ menu.addEventListener('click',()=>links.classList.toggle('is-open')); }
+const io = new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}}),{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+document.querySelectorAll('form').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();const btn=form.querySelector('button[type=submit]');if(!btn)return;const old=btn.textContent;btn.textContent='Danke – Prototype, noch ohne Versand';btn.disabled=true;setTimeout(()=>{btn.textContent=old;btn.disabled=false},3200);}));
+</script>
+<script>setTimeout(()=>document.querySelectorAll(".reveal").forEach(e=>e.classList.add("is-visible")),120);</script>
+</body>
+</html>
